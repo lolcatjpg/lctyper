@@ -4,7 +4,9 @@ a simple command-line tool for writing a chunk of text multiple times, automatic
 ## More detailed explanation
 You can use this script to automatically write a single or multiple lines of text in rapid succession.
 The amount of times the program writes the text is configurable.
-You can choose to pass the text to write as a command line argument, to write text from a file or from a URL.
+You can choose to pass the text to write as a command line argument, to write text from a file or from a URL.  
+  
+The program has currently only been tested on Windows, but it might work on Linux and macOS.
 
 ## Usage
 First, focus the program you want to write text in, then, immediately after, focus the terminal. 
@@ -36,3 +38,6 @@ You have to enter the full url (with `http://` or `https://`).
 It is recommended to use this in conjunction with the `--countdown` flag.  
 `--countdown [countdown in seconds]`: Makes the script count down before starting to type. This cannot be a decimal number.  
 `--debug`: Prints debug info to the terminal.
+
+## Disclaimer
+This program is provided without any warranty of any kind. I cannot be held responsible for any consequences you might encounter by the use of this program.
