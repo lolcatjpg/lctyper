@@ -6,7 +6,9 @@ You can use this script to automatically write a single or multiple lines of tex
 The amount of times the program writes the text is configurable.
 You can choose to pass the text to write as a command line argument, to write text from a file or from a URL.  
   
-The program has currently only been tested on Windows, but it might work on Linux and macOS.
+The program has currently only been tested on Windows, but it might work on Linux and macOS.  
+
+Windows will probably tell you the file might be harmful, since it does not have a certificate and I do not have any understanding on how this certificate stuff works. If you want, you can package the file yourself (with pyinstaller or a similar tool).
 
 ## Usage
 First, focus the program you want to write text in, then, immediately after, focus the terminal. 
