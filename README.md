@@ -16,18 +16,18 @@ First, focus the program you want to write text in, then, immediately after, foc
 
 #### To type text fom a command line argument:
 ```shell
-...> lctyper text "your text"
+lctyper text "your text"
 ```
 
 #### To type text from a file:
 ```shell
-...> lctyper file "path/to/file"
+lctyper file "path/to/file"
 ```
 This wil type every line of text from the file as a separate file.
 
 #### To type text from a URL:
 ```shell
-...> lctyper url https://url
+lctyper url https://url
 ```
 This wil send a request to the URL and type out the raw response body, line per line.
 It is best to use this with pure text pages (like pastebin.com/raw/...).  
