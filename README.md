@@ -23,7 +23,7 @@ lctyper text "your text"
 ```shell
 lctyper file "path/to/file"
 ```
-This wil type every line of text from the file as a separate file.
+This wil type every line of text from the file as a separate line.
 
 #### To type text from a URL:
 ```shell
