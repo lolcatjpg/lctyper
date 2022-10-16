@@ -8,8 +8,6 @@ You can choose to pass the text to write as a command line argument, to write te
   
 The program has currently only been tested on Windows, but it might work on Linux and macOS.  
 
-Windows will probably tell you the file might be harmful, since it does not have a certificate and I do not have any understanding on how this certificate stuff works. If you want, you can package the file yourself (with pyinstaller or a similar tool).
-
 ## Usage
 First, focus the program you want to write text in, then, immediately after, focus the terminal. 
 (The script presses alt+tab right before typing your text, to focus back on the application you want to type in. This behavior is configurable.)
